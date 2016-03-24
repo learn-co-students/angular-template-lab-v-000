@@ -1,9 +1,9 @@
 function SuccessMessage() {
-	return {
-		template: '<div>Change this success message using templateUrl!</div>'
-	};
+  return {
+    templateUrl: 'js/app/views/success.html'
+  };
 }
 
 angular
-	.module('app')
-	.directive('successMessage', SuccessMessage);
+  .module('app')
+  .directive('successMessage', SuccessMessage);
