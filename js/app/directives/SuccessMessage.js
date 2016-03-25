@@ -1,6 +1,6 @@
 function SuccessMessage() {
 	return {
-		templateUrl: 'successMessage.html'
+		templateUrl: 'js/app/views/successMessage.html'
 	};
 }
 
