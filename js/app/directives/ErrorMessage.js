@@ -1,6 +1,8 @@
 function ErrorMessage() {
 	return {
-		template: '<div>Change this error message to use templateUrl!</div>'
+		// template: '<div>Change this error message to use templateUrl!</div>'
+    templateUrl: 'error.html'
+
 	};
 }
 
