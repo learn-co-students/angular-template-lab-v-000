@@ -1,6 +1,6 @@
 function ErrorMessage() {
 	return {
-		templateUrl: '/templates/error.html'
+		templateUrl: 'js/app/views/error.html'
 	};
 }
 
