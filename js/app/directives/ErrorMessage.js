@@ -1,9 +1,5 @@
-function ErrorMessage() {
-	return {
-		template: '<div>Change this error message to use templateUrl!</div>'
-	};
-}
-
-angular
-	.module('app')
-	.directive('errorMessage', ErrorMessage);
+app.directive('errorMessage', function ErrorMessage() {
+  return {
+    templateUrl: 'js/app/templates/error.html'
+  };
+});
