@@ -1,6 +1,7 @@
 function SuccessMessage() {
 	return {
-		template: '<div>Change this success message using templateUrl!</div>'
+		restrict: 'E',
+		templateUrl: 'js/app/directives/success.html'
 	};
 }
 
