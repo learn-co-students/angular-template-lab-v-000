@@ -1,6 +1,7 @@
 function ErrorMessage() {
 	return {
-		template: '<div>Change this error message to use templateUrl!</div>'
+		restrict: 'E',
+		templateUrl: 'js/app/directives/error.html'
 	};
 }
 
